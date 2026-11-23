@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal project for tracking publicly displayed product offers and price changes.">
+  <title>Price Monitor — Personal Project</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5d687b; --line:#e5e9f0; --accent:#f36b21; --bg:#f7f8fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+    main { width:min(900px, calc(100% - 40px)); margin:72px auto; }
+    .eyebrow { color:var(--accent); font-size:.78rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { font-size:clamp(2.3rem,6vw,4rem); line-height:1.08; letter-spacing:-.04em; margin:14px 0 20px; }
+    .lead { max-width:680px; font-size:1.2rem; color:var(--muted); }
+    section { margin-top:54px; padding:28px 0; border-top:1px solid var(--line); }
+    h2 { font-size:1.2rem; margin:0 0 12px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; margin-top:22px; }
+    .card { background:white; border:1px solid var(--line); border-radius:14px; padding:20px; }
+    .card p { margin:8px 0 0; color:var(--muted); }
+    footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    a { color:inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Independent personal project</div>
+    <h1>Price Monitor</h1>
+    <p class="lead">
+      A small personal project exploring product-offer monitoring and historical
+      price analysis using publicly available marketplace information.
+    </p>
+
+    <section>
+      <h2>About the project</h2>
+      <p>
+        Price Monitor is intended for personal research and analysis. It helps
+        organize product offers, compare retailer-level prices where data is
+        available, and build a historical record of observed prices over time.
+      </p>
+    </section>
+
+    <section>
+      <h2>Planned capabilities</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Offer comparison</strong>
+          <p>Review available offers for selected products and retailers.</p>
+        </div>
+        <div class="card">
+          <strong>Price history</strong>
+          <p>Record daily observations to understand price movements over time.</p>
+        </div>
+        <div class="card">
+          <strong>Data analysis</strong>
+          <p>Export structured data for spreadsheet and business intelligence analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Use and affiliation</h2>
+      <p>
+        This is an independent, non-commercial personal project. It is not
+        affiliated with, endorsed by, or operated by Idealo or any retailer.
+        Any third-party data is subject to the relevant provider's terms and
+        usage limits.
+      </p>
+    </section>
+
+    <footer>
+      Personal project page · No account credentials or private user data are collected here.
+    </footer>
+  </main>
+</body>
+</html>
